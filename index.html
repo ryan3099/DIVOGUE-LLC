@@ -2,81 +2,107 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DIVOGUE LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ladde Properties LLC</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
       color: #222;
     }
-    .section {
-      display: flex;
-      flex-direction: row;
-      height: 100vh;
-    }
-    .half {
-      flex: 1;
-      position: relative;
-      overflow: hidden;
-    }
-    .half img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: rgba(255, 255, 255, 0.85);
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    header {
+      background: url('https://images.unsplash.com/photo-1599422314077-f4dfdaa4cd1c?q=80&w=2670&auto=format&fit=crop') no-repeat center center/cover;
+      color: white;
       text-align: center;
+      padding: 80px 20px;
     }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+    header h1 {
+      font-size: 42px;
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 15px 30px;
+      border-radius: 10px;
     }
-    p {
-      font-size: 18px;
-      margin: 8px 0;
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+      border-bottom: 1px solid #ddd;
     }
-    .contact {
+    section:nth-child(even) {
+      background: #f9f9f9;
+    }
+    section img {
+      width: 90%;
+      max-width: 1000px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 12px;
       margin-top: 20px;
     }
-    .contact a {
-      color: #000;
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    a {
+      color: #003366;
       text-decoration: none;
-      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="section">
-    <div class="half">
-      <img src="https://images.unsplash.com/photo-1730263939244-cf09461b34e0?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Background 1">
-      <div class="content">
-        <h1>DIVOGUE LLC</h1>
-        <p>Innovating Forward</p>
-        <div class="contact">
-          <p>Email: <a href="mailto:contact@divogue.shop">contact@divogue.shop</a></p>
-          <p>Phone: <a href="tel:7606184764">760-618-4764</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="half">
-      <img src="https://images.unsplash.com/photo-1693833520336-b983a14407e2?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Background 2">
-      <div class="content">
-        <h1>Georgia Based</h1>
-        <p>Registered in Sherman Oaks, CA</p>
-        <p>Company #: 24201200</p>
-        <p>Status: Active / Noncompliance</p>
-      </div>
-    </div>
-  </div>
+
+<header>
+  <h1>Ladde Properties LLC</h1>
+  <p>Reliable Property Solutions Based in Houston, TX</p>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>We are a dedicated team in Houston, Texas, providing reliable property management and residential services.</p>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <p>Clients trust us for our responsiveness, detailed care, and ability to handle every situation professionally.</p>
+</section>
+
+<section>
+  <h2>Our Services</h2>
+  <p>We offer property leasing, tenant screening, maintenance coordination, and real estate consulting.</p>
+</section>
+
+<section>
+  <h2>Our Fleet</h2>
+  <p>Our team uses modern vehicles and equipment to maintain properties and respond quickly to service requests.</p>
+  <img src="https://images.unsplash.com/photo-1600585153490-76e32a2715f3?q=80&w=2670&auto=format&fit=crop" alt="fleet">
+</section>
+
+<section>
+  <h2>Booking CTA</h2>
+  <p><strong>Need Property Help?</strong> <br>Call us now or click the link below to schedule your consultation:</p>
+  <p><a href="mailto:admin@laddeproperties.site">Book Now via Email</a></p>
+</section>
+
+<section>
+  <h2>Client Testimonials</h2>
+  <p>"Ladde Properties handled my home rental flawlessly. I never worry about a thing!" – Sarah M.</p>
+  <p>"The best property managers in Houston – always available and very professional!" – Alex R.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:admin@laddeproperties.site">admin@laddeproperties.site</a></p>
+  <p>Phone: <a href="tel:+19493367854">949-336-7854</a></p>
+  <p>Location: Houston, TX, USA</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Ladde Properties LLC – All rights reserved.</p>
+</footer>
+
 </body>
 </html>
